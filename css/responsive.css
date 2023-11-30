@@ -1,0 +1,34 @@
+/************************************************
+    UTILITIES
+ ************************************************/
+
+/* LAYOUT */
+
+@media screen and (max-width: 1160px){
+    .container{
+        width: auto;
+        max-width: 1140px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 748px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 370px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+}
