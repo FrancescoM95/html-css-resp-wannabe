@@ -4,12 +4,10 @@
 
 /* LAYOUT */
 
-@media screen and (max-width: 1160px){
-    .container {
-        width: auto;
-        max-width: 1160px;
-    }   
-}
+.container {
+    width: 100%;
+    max-width: 1140px;
+}   
 
 @media screen and (max-width: 768px) {
     .container {
@@ -31,4 +29,19 @@
     .row .col {
         width: 100%;
     }
+    
+    .lessons{
+        padding-bottom: 3rem;
+    }
+
+    .steps{
+        margin: 0;
+        padding: 3rem 0;
+    }
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+
 }
